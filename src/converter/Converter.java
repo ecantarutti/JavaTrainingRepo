@@ -1,4 +1,4 @@
-
+package converter;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Converter {
 			TemperatureConverter.selectingConversor();
 			break;
 		case "b":
-			System.out.println("");
+			LengthConverter.selectingLengthConversor();
 			break;
 		default:
 			System.out.println("Please select a valid option");
